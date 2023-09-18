@@ -41,18 +41,22 @@ header{
 .nav-border{
     border-bottom:1px solid #e4dbdb;
 }
-.m-ul-li li a{
-    padding-bottom: 0 !important;
-    padding-top: 0 !important;
-}
-.before{
+.nav-border .m-ul-li .active{
     border-bottom: 1px solid #000000;
+} 
+.nav-hover li a, a.nav-active {
+    transition: all .5s;
+    position: relative;
+    padding: 0 !important;
 }
-.before-hover{
-    transition: ease-in-out 1s;
-}
-.before-hover:hover{
-    border-bottom: 1px solid #000000;
+.nav-hover li a:hover::before, a.nav-active::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #000000;
+    left: 0;
+    bottom: 0;
 }
 .nav-search{
     background-color: #F5F5F5;
@@ -67,7 +71,6 @@ header{
 }
 .nav-last-area img{
     cursor: pointer;
-    
 }
 img{
     pointer-events:none;
@@ -92,11 +95,24 @@ img{
     background-color: #000000;
     
 }
+.m-ul-li .nav-link{
+    color:#000000 !important;
+}
 .coro-m-p{
     padding:4rem 4rem !important;
 }
 .caro-title{
     padding-bottom: 2rem !important;
+}
+.carousel-indicators [data-bs-target]{
+    width: 15px !important;
+    height: 15px;
+    border-radius: 50%;
+    
+}
+.section-1 .carousel-indicators .active{
+    background-color:#DB4444;
+    border: 2px solid #fff;
 }
 .caro-title h6{
     font-size: 1.6rem;
@@ -142,15 +158,103 @@ img{
     padding:1.5rem 1rem;
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
+.prodact-list{
+    padding: 3rem 0;
+    overflow: hidden;
+}
+.prodact {
+    width: 300px;
+    position: relative;
+	left: 0;
+	transition: 0.5s;
+}
+.prodact a{
+    text-decoration: none;
+}
+.prodact .card{
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+.prodact .card-img{
+    background-color: #F5F5F5;
+    position: relative;
+    padding: 4rem 0;
+    width: 300px;
+    height: 220px;
+}
+.card-header-top{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 1.5rem 1rem;
+}
+.prodact:hover .add-to-cart {
+    opacity: 1;
+}
+.add-to-cart {
+    background-color: #000000;
+    padding: 1rem 0;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #FFFFFF;
+    transition: all .5s;
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    left: 0;
+    bottom: 0;
+}
+.card-header-top p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #FAFAFA;
+    background-color: #DB4444;
+    padding: .1rem 1rem;
+    border-radius: 5px;
+    margin: 0;
+}
+.card-header-top i, .card-header-top img{
+   color: #000000;
+    font-size: 1.6rem;
+    padding: 0.8rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.prodact .card-body h5{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: #000000 !important;
+}
+.prodact .card-body h6{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+}
+.card-body-price1{
+    color:  #DB4444;
+}
+.card-body-price2{
+    color: #000000;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.card-body-icon-review i{
+    color: #FFAD33;
+    font-size: 1.2rem;
+}
+.review-user p{
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2.1rem;
+    color: #000000;
+    opacity: 0.5;
+}
 
 
  /* Resposive Devies */
@@ -161,26 +265,51 @@ img{
 
 
 @media (max-width:991px){
-    .before{
-        border: none;
+
+    .nav-hover li a:hover::before, a.nav-active::before{
+        display: none;
     }
-    .before-hover:hover{
-        border: none;
+    .section-1 .row{
+        flex-direction: column-reverse;
     }
-    .m-ul-li li{
+    .section-1 .col-lg-10{
+        padding: 0;
+    }
+    .section-1 .col-lg-10 .ps-5{
         padding-left: 0 !important;
-        padding:.5rem 0 !important ;
+        padding-top: 0 !important;
+    }
+    nav .navbar-nav{
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+    .nav-last-area{
+        justify-content: center;
+        padding-top: 1.5rem;
+    }
+    .sct-2-header .col-lg-3{
+        padding-left: 0 !important;
+        padding-top: 1rem;
+    }
+    .sct-2-header .col-lg-3 .row .col-3{
+        padding: 0 !important;
+    }
+    .sct-2-header .col-lg-2{
+        padding-top: 2rem !important;
     }
 }
 
 @media (max-width:767px){
+    html{
+        font-size:50% ;
+    }
     .header-text-h6 {
         display: none;
     }
     .hidden{
         display: none;
-    }
-   
+    }  
 }
 
 

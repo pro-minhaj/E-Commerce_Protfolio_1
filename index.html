@@ -43,11 +43,11 @@
             <a href="#" class="navbar-brand"><img src="./img/Logo.png" alt="Logo"><a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbar-collapse">
-                <ul class="navbar-nav m-ul-li m-auto">
-                    <li class="nav-item"><a href="#" class="nav-link active before">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link before-hover">Contact</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link before-hover">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link before-hover">Sing Up</a></li>
+                <ul class="navbar-nav m-ul-li m-auto nav-hover">
+                    <li class="nav-item"><a href="#" class="nav-link nav-active before">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sing Up</a></li>
                 </ul>
                 <div class="nav-last-area d-flex align-items-center gap-4 flex-wrap">
                     <div class="nav-search ">
@@ -71,7 +71,7 @@
         <section class="section-1">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-2 border-end">
+                    <div class="col-lg-2 border-end">
                         <ul class="ul-2 pt-4">
                             <li class="sct-1-li"><a href="#" class="d-flex justify-content-between align-items-center">
                                 <div>Worman's Fashion</div>
@@ -90,10 +90,10 @@
                             <li class="sct-1-li"><a href="#">Health & Beauty</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-10">
+                    <div class="col-lg-10">
                         <div class="sct-1-main pt-5 ps-5">
                             <div id="carouselExampleCaptions" class="carousel slide">
-                                <div class="carousel-indicators">
+                                <div class="carousel-indicators align-items-center">
                                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -102,7 +102,7 @@
                                 </div>
                                 <div class="carousel-inner">
                                   <div class="carousel-item active">
-                                    <div class="row caro-main-page px-5 py-3">
+                                    <div class="row caro-main-page px-5 py-3 flex-row">
                                         <div class="col-6 coro-m-p">
                                             <div class="d-flex align-items-center gap-4 caro-title">
                                                 <img src="./img/iphone-logo.png" alt="">
@@ -187,14 +187,14 @@
                                     </div>
                                   </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
                                   </button>
                                   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Next</span>
-                                  </button>
+                                  </button> -->
                               </div>
                         </div>
                     </div>
@@ -211,12 +211,12 @@
                         <div><h6>Today’s</h6></div>
                     </div>
                     <div class="sct-2-hr-sub row pt-4 align-items-center">
-                        <div class="col-md-3">
+                        <div class="col-lg-3">
                             <h2 class="heading">Flash Sales</h2>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-lg-3">
                             <div class="row">
-                                <div class="col-3 d-flex time-dates align-items-center justify-content-around">
+                                <div class="col-3 ps-0-lg d-flex time-dates align-items-center justify-content-around">
                                     <div>
                                         <p>Days</p>
                                         <h3>03</h3>
@@ -253,10 +253,293 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-2 ms-auto pe-0">
+                        <div class="col-lg-2 ms-auto pe-0">
                             <div class="arow-icon text-end">
-                                <span class="me-3 rounded-circle"><img src="./img/icons_arrow-left.png"></span>
-                                <span class="rounded-circle"><img src="./img/icons arrow-right.png" alt=""></span>
+                                <span onclick="right_mover(); "class="me-3 rounded-circle"><img src="./img/icons_arrow-left.png"></span>
+                                <span onclick="left_mover(); "class="rounded-circle"><img src="./img/icons arrow-right.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prodact-list d-flex gap-5">
+                    <div class="prodact">
+                        <div class="card">
+                            <div class="card-img text-center"> 
+                                <div class="card-header-top d-flex justify-content-between align-items-start">
+                                    <div><p>-40%</p></div>
+                                    <div class="d-flex flex-column align-items-center gap-3">
+                                       <a href="#"><i class="fa-regular fa-heart"></i></a> 
+                                       <a href="#"><img src="./img/svg/eye.svg" alt=""></a> 
+                                    </div>
+                                </div>
+                                <img  src="./img/game-pad.png" alt="">
+                                <a href="#" class="add-to-cart">Add To Cart</a>
+                            </div>
+
+                            <div class="card-body p-0">
+                                <h5 class="card-title mt-3">HAVIT HV-G92 Gamepad</h5>
+                                <div class="d-flex align-items-center gap-4">
+                                    <h6 class="card-body-price1">$120</h6>
+                                    <h6 class="card-body-price2">$160</h6>
+                                </div>
+                                <div class="card-body-icon d-flex gap-3 align-items-center">
+                                    <div class="card-body-icon-review">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="review-user">
+                                        <p class="m-0">(88)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prodact">
+                        <div class="card">
+                            <div class="card-img text-center"> 
+                                <div class="card-header-top d-flex justify-content-between align-items-start">
+                                    <div><p>-35%</p></div>
+                                    <div class="d-flex flex-column align-items-center gap-3">
+                                       <a href="#"><i class="fa-regular fa-heart"></i></a> 
+                                       <a href="#"><img src="./img/svg/eye.svg" alt=""></a> 
+                                    </div>
+                                </div>
+                                <img src="./img/keyboard.png" alt="">
+                                <a href="#" class="add-to-cart">Add To Cart</a>
+                            </div>
+
+                            <div class="card-body p-0">
+                                <h5 class="card-title mt-3">AK-900 Wired Keyboard</h5>
+                                <div class="d-flex align-items-center gap-4">
+                                    <h6 class="card-body-price1">$960</h6>
+                                    <h6 class="card-body-price2">$1160</h6>
+                                </div>
+                                <div class="card-body-icon d-flex gap-3 align-items-center">
+                                    <div class="card-body-icon-review">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="review-user">
+                                        <p class="m-0">(75)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prodact">
+                        <div class="card">
+                            <div class="card-img text-center"> 
+                                <div class="card-header-top d-flex justify-content-between align-items-start">
+                                    <div><p>-30%</p></div>
+                                    <div class="d-flex flex-column align-items-center gap-3">
+                                       <a href="#"><i class="fa-regular fa-heart"></i></a> 
+                                       <a href="#"><img src="./img/svg/eye.svg" alt=""></a> 
+                                    </div>
+                                </div>
+                                <img src="./img/monitor.png" alt="">
+                                <a href="#" class="add-to-cart">Add To Cart</a>
+                            </div>
+
+                            <div class="card-body p-0">
+                                <h5 class="card-title mt-3">IPS LCD Gaming Monitor</h5>
+                                <div class="d-flex align-items-center gap-4">
+                                    <h6 class="card-body-price1">$370</h6>
+                                    <h6 class="card-body-price2">$400</h6>
+                                </div>
+                                <div class="card-body-icon d-flex gap-3 align-items-center">
+                                    <div class="card-body-icon-review">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="review-user">
+                                        <p class="m-0">(99)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prodact">
+                        <div class="card">
+                            <div class="card-img text-center"> 
+                                <div class="card-header-top d-flex justify-content-between align-items-start">
+                                    <div><p>-25%</p></div>
+                                    <div class="d-flex flex-column align-items-center gap-3">
+                                       <a href="#"><i class="fa-regular fa-heart"></i></a> 
+                                       <a href="#"><img src="./img/svg/eye.svg" alt=""></a> 
+                                    </div>
+                                </div>
+                                <img src="./img/chaire.png" alt="">
+                                <a href="#" class="add-to-cart">Add To Cart</a>
+                            </div>
+
+                            <div class="card-body p-0">
+                                <h5 class="card-title mt-3">S-Series Comfort Chair </h5>
+                                <div class="d-flex align-items-center gap-4">
+                                    <h6 class="card-body-price1">$375</h6>
+                                    <h6 class="card-body-price2">$400</h6>
+                                </div>
+                                <div class="card-body-icon d-flex gap-3 align-items-center">
+                                    <div class="card-body-icon-review">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="review-user">
+                                        <p class="m-0">(99)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="prodact">
+                        <div class="card">
+                            <div class="card-img text-center"> 
+                                <div class="card-header-top d-flex justify-content-between align-items-start">
+                                    <div><p>-40%</p></div>
+                                    <div class="d-flex flex-column align-items-center gap-3">
+                                       <a href="#"><i class="fa-regular fa-heart"></i></a> 
+                                       <a href="#"><img src="./img/svg/eye.svg" alt=""></a> 
+                                    </div>
+                                </div>
+                                <img  src="./img/game-pad.png" alt="">
+                                <a href="#" class="add-to-cart">Add To Cart</a>
+                            </div>
+
+                            <div class="card-body p-0">
+                                <h5 class="card-title mt-3">HAVIT HV-G92 Gamepad</h5>
+                                <div class="d-flex align-items-center gap-4">
+                                    <h6 class="card-body-price1">$120</h6>
+                                    <h6 class="card-body-price2">$160</h6>
+                                </div>
+                                <div class="card-body-icon d-flex gap-3 align-items-center">
+                                    <div class="card-body-icon-review">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="review-user">
+                                        <p class="m-0">(88)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prodact">
+                        <div class="card">
+                            <div class="card-img text-center"> 
+                                <div class="card-header-top d-flex justify-content-between align-items-start">
+                                    <div><p>-35%</p></div>
+                                    <div class="d-flex flex-column align-items-center gap-3">
+                                       <a href="#"><i class="fa-regular fa-heart"></i></a> 
+                                       <a href="#"><img src="./img/svg/eye.svg" alt=""></a> 
+                                    </div>
+                                </div>
+                                <img src="./img/keyboard.png" alt="">
+                                <a href="#" class="add-to-cart">Add To Cart</a>
+                            </div>
+
+                            <div class="card-body p-0">
+                                <h5 class="card-title mt-3">AK-900 Wired Keyboard</h5>
+                                <div class="d-flex align-items-center gap-4">
+                                    <h6 class="card-body-price1">$960</h6>
+                                    <h6 class="card-body-price2">$1160</h6>
+                                </div>
+                                <div class="card-body-icon d-flex gap-3 align-items-center">
+                                    <div class="card-body-icon-review">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="review-user">
+                                        <p class="m-0">(75)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prodact">
+                        <div class="card">
+                            <div class="card-img text-center"> 
+                                <div class="card-header-top d-flex justify-content-between align-items-start">
+                                    <div><p>-30%</p></div>
+                                    <div class="d-flex flex-column align-items-center gap-3">
+                                       <a href="#"><i class="fa-regular fa-heart"></i></a> 
+                                       <a href="#"><img src="./img/svg/eye.svg" alt=""></a> 
+                                    </div>
+                                </div>
+                                <img src="./img/monitor.png" alt="">
+                                <a href="#" class="add-to-cart">Add To Cart</a>
+                            </div>
+
+                            <div class="card-body p-0">
+                                <h5 class="card-title mt-3">IPS LCD Gaming Monitor</h5>
+                                <div class="d-flex align-items-center gap-4">
+                                    <h6 class="card-body-price1">$370</h6>
+                                    <h6 class="card-body-price2">$400</h6>
+                                </div>
+                                <div class="card-body-icon d-flex gap-3 align-items-center">
+                                    <div class="card-body-icon-review">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="review-user">
+                                        <p class="m-0">(99)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prodact">
+                        <div class="card">
+                            <div class="card-img text-center"> 
+                                <div class="card-header-top d-flex justify-content-between align-items-start">
+                                    <div><p>-25%</p></div>
+                                    <div class="d-flex flex-column align-items-center gap-3">
+                                       <a href="#"><i class="fa-regular fa-heart"></i></a> 
+                                       <a href="#"><img src="./img/svg/eye.svg" alt=""></a> 
+                                    </div>
+                                </div>
+                                <img src="./img/chaire.png" alt="">
+                                <a href="#" class="add-to-cart">Add To Cart</a>
+                            </div>
+
+                            <div class="card-body p-0">
+                                <h5 class="card-title mt-3">S-Series Comfort Chair </h5>
+                                <div class="d-flex align-items-center gap-4">
+                                    <h6 class="card-body-price1">$375</h6>
+                                    <h6 class="card-body-price2">$400</h6>
+                                </div>
+                                <div class="card-body-icon d-flex gap-3 align-items-center">
+                                    <div class="card-body-icon-review">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="review-user">
+                                        <p class="m-0">(99)</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
