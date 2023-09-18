@@ -1,0 +1,189 @@
+html{
+    font-size: 62.5%;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif ;
+}
+header{
+    background: #000000;
+    padding: 1.2rem 0;
+}
+.header-text h6{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #FAFAFA;
+    margin-bottom: 0;
+}
+.header-text a{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #FAFAFA;
+    margin-left: 1rem;
+}
+.m-select-1{
+    margin-left: 20rem;
+    border: none;
+    background-color: transparent;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #FAFAFA;
+}
+.m-ul-li li{
+    padding:0 2rem !important;
+    font-size: 1.6rem !important;
+    font-weight: 400 !important;
+    color: #000000 !important;
+}
+.nav-border{
+    border-bottom:1px solid #e4dbdb;
+}
+.m-ul-li li a{
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+.before{
+    border-bottom: 1px solid #000000;
+}
+.before-hover{
+    transition: ease-in-out 1s;
+}
+.before-hover:hover{
+    border-bottom: 1px solid #000000;
+}
+.nav-search{
+    background-color: #F5F5F5;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.nav-search input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+}
+.nav-last-area img{
+    cursor: pointer;
+    
+}
+img{
+    pointer-events:none;
+}
+.ul-2{
+    padding-left: 0 !important;
+}
+.sct-1-li{
+    list-style: none;
+    padding-top: 1.5rem !important;
+}
+.ul-2 a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #000000;
+}
+.section-1{
+    padding-bottom:10rem !important ;
+}
+.caro-main-page{
+    background-color: #000000;
+    
+}
+.coro-m-p{
+    padding:4rem 4rem !important;
+}
+.caro-title{
+    padding-bottom: 2rem !important;
+}
+.caro-title h6{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #FAFAFA;
+    margin-bottom: 0 !important;
+}
+.caro-heading h1{
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: #FAFAFA;
+}
+.caro-button{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #FAFAFA;
+}
+.section-heading h6{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #DB4444;
+}
+.heading{
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 0;
+}
+.time-dates p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000000;
+    margin: 0;
+}
+.time-dates h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #000000;
+    margin: 0;
+}
+.arow-icon span{
+    background-color: #F5F5F5;
+    padding:1.5rem 1rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+ /* Resposive Devies */
+
+@media (max-width:1199px){
+    
+}
+
+
+@media (max-width:991px){
+    .before{
+        border: none;
+    }
+    .before-hover:hover{
+        border: none;
+    }
+    .m-ul-li li{
+        padding-left: 0 !important;
+        padding:.5rem 0 !important ;
+    }
+}
+
+@media (max-width:767px){
+    .header-text-h6 {
+        display: none;
+    }
+    .hidden{
+        display: none;
+    }
+   
+}
+
+
+@media (max-width:575px){
+
+}
