@@ -477,7 +477,7 @@ img{
 }
 .section-8{
     padding-top: 5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
 }
 .service h5{
     color: #000000;
@@ -496,13 +496,96 @@ img{
 .m-padding{
     padding-bottom: 8rem;
 }
+footer{
+    background-color: #000000;
+    
+}
+.footer-padding{
+    padding: 7rem 0;
+    gap: 5rem;
+    justify-content: center;
+    border-bottom: 1px solid  #2c2b2b;
+}
+.footer-items h5{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    color: #FAFAFA;
+    padding: 1.5rem 0;
+}
+.footer-items p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: #FAFAFA;
+    opacity: 0.8;
+    padding-bottom: 0.4rem;
+}
+.fr-1-email-area{
+    border: 2px solid  #FAFAFA;
+    border-radius: 5px;
+}
+.fr-1-email-area input{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #FAFAFA;
+    font-size: 1.6rem;
+}
+.fr-1-email-area input::placeholder{
+    color:#FAFAFA;
+    opacity: 0.4;
+}
+.footer-heading-sub{
+    padding-top: 0 !important;
+}
+.footer-accout-ul{
+    padding-left: 0;
+}
+.footer-accout-ul li{
+    list-style: none;
+    padding-bottom: 1.5rem;
+}
+.footer-accout-ul li span{
+    color: #FAFAFA;
+    font-size: 2rem;
+    margin: 0 0.5rem;
+}
+.footer-accout-ul li a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: #FAFAFA;
+    opacity: 0.9;
+}
 
+.footer-icons{
+    padding-top: 2rem;
+}
+.footer-icons i{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #FFFFFF;
+}
+.footer-icons i:hover{
+    color:blue ;
+}
+.footer-download-app-p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #FAFAFA;
 
-
-
-
-
-
+}
+.copyright{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding: 1rem 0;
+}
 
 
  /* Resposive Devies */
@@ -549,6 +632,9 @@ img{
     .section-5 .col-6{
         display: none;
     }
+    .footer-items{
+        width: 26.666% !important;
+    }
     
 }
 
@@ -566,7 +652,9 @@ img{
         width: 100% !important;
         padding-top: 3rem !important;
     }
-  
+    .footer-items{
+        width: 100% !important;
+    }
 }
 
 
