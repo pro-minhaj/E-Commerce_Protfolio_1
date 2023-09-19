@@ -166,6 +166,9 @@ img{
     padding-bottom: 6rem;
     overflow: hidden;
 }
+.prodact-padding{
+    padding-top: 5rem !important;
+}
 .prodact {
     width: 300px;
     position: relative;
@@ -239,6 +242,7 @@ img{
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 2.4rem;
+    margin-bottom: 0;
 }
 .card-body-price1{
     color:  #DB4444;
@@ -359,6 +363,51 @@ img{
     font-weight: 500;
     line-height: 2.4rem;
 }
+.card-img-width {
+    height: 255px !important;
+}
+.section-6{
+    padding-bottom: 10rem;
+}
+.card-header-top .card-New p{
+    background-color: transparent;
+}
+.card-New{
+    background-color: #00FF66 !important;
+}
+.card-body-radio input {
+    accent-color: #FB1314;
+    transform: scale(1.7);
+}
+.radia-color input{
+    accent-color: #0000;
+}
+.card-body-radia-dot{
+    position: relative;
+}
+.card-body-radia-dot::before{
+    width: 20px;
+    content: "";
+    height: 20px;
+    position: absolute;
+    background-color: #DB4444;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
