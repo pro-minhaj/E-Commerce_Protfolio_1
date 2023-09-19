@@ -396,7 +396,7 @@ img{
     left: 0;
 }
 .section-7{
-    padding-bottom: 5rem;
+    padding-bottom: 7rem;
 }
 .m-width{
     width: 49% !important;
@@ -475,10 +475,27 @@ img{
     text-decoration: none;
     border-bottom: 1px dotted #999696;
 }
+.section-8{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+.service h5{
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+    margin-top: 2rem;
 
-
-
-
+}
+.service p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+    color: #000000;
+}
+.m-padding{
+    padding-bottom: 8rem;
+}
 
 
 
