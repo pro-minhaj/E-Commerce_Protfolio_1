@@ -7,6 +7,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family:'Poppins',sans-serif ;
+    
 }
 header{
     background: #000000;
@@ -429,21 +430,21 @@ img{
     gap: 2.5rem;
 }
 .bg-1{
-    background-image: url(/./img/BG/box-bg.png);
+    background-image: url(../img/BG/box-bg.png);
     height: 500px;
 }
 .bg-2{
-    background-image: url(/./img/BG/woman-bg.png);
+    background-image: url(../img/BG/woman-bg.png);
     height: 250px;
     background-position:right !important;
 }
 .bg-3{
-    background-image: url(/./img/BG/mini-box-bg.png);
+    background-image: url(../img/BG/mini-box-bg.png);
     height: 225px;
     background-position: center !important;
 }
 .bg-4{
-    background-image: url(/./img/BG/parfom-bg.png);
+    background-image: url(../img/BG/parfom-bg.png);
     height: 225px;
     background-position: center !important;
 }
@@ -498,7 +499,6 @@ img{
 }
 footer{
     background-color: #000000;
-    
 }
 .footer-padding{
     padding: 7rem 0;
@@ -587,7 +587,65 @@ footer{
     padding: 1rem 0;
 }
 
+    /* Contact Page */
+#contact-page .section-1{
+    padding: 7rem 0;
+}
+.contact-page-heading{
+    padding-bottom: 5rem;
+}
+.contact-page-heading a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+    color: #000000;
+    opacity: 0.5;
+    
+}
+.contact-page-heading a:hover{
+    opacity: 1;
+}
+#contact-page .active{
+    opacity: 1;
+}
+#contact-page .ct-call-us h6{
+    color: #000000;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
 
+}
+#contact-page .form .col-lg-4{
+    width: 32.33%;
+    
+}
+#contact-page .border-ct-page-call{
+    border-bottom: 1px solid #000000;
+}
+#contact-page .ct-page-call p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+    color: #000000;
+}
+#contact-page .form input{
+    border: none !important;
+    background-color: #F5F5F5;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.6rem;
+}
+#contact-page .form-text-area-1 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#contact-page .form-text-area-1 textarea{
+    border: none !important;
+    background-color:#F5F5F5 ;
+    padding-bottom: 15rem;
+    font-size: 1.6rem;
+}
  /* Resposive Devies */
 
 @media (max-width:1199px){
@@ -634,6 +692,9 @@ footer{
     }
     .footer-items{
         width: 26.666% !important;
+    }
+    #contact-page .form .col-lg-4{
+        width: 100% !important;
     }
     
 }
