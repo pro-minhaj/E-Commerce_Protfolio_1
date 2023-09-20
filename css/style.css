@@ -662,12 +662,45 @@ footer{
     line-height: 2.6rem;
     color: #000000;
 }
-
-
-
-
-
-
+.about-sales{
+    width: 22%;
+    height: 200px;
+    transition: all 0.5s;
+}
+.about-sales span{
+    color:#fff;
+    padding: 1rem;
+    background-color: #000000;
+    border-radius: 50%;
+    outline: 10px solid  #c4c4c5;
+    margin-bottom: 2rem;
+}
+.about-sales h4{
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: 0.04em;
+    color: #000000 ;
+    margin-top: 0.5rem;
+    transition: all 0.5s;
+}
+.about-sales p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: #000000;
+    margin-top: 0.5rem;
+    transition: all 0.5s;
+}
+.about-sales:hover{
+    background-color:#DB4444;
+}
+.about-sales:hover  .hgudh{
+    color: #FFF;
+}
+.about-sales:hover .gjsahf{
+    color: #fff;
+}
 
 
 
@@ -731,6 +764,9 @@ footer{
     #contact-page .form .col-lg-4{
         width: 100% !important;
     }
+    .about-sales{
+        width: 47% !important;
+    }
     
 }
 
@@ -758,5 +794,7 @@ footer{
     .carousel{
         display: none;
     }
-   
+    .about-sales{
+        width: 100% !important;
+    }
 }
