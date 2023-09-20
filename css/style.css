@@ -606,7 +606,7 @@ footer{
 .contact-page-heading a:hover{
     opacity: 1;
 }
-#contact-page .active{
+.contact-page-heading .active{
     opacity: 1;
 }
 #contact-page .ct-call-us h6{
@@ -646,6 +646,41 @@ footer{
     padding-bottom: 15rem;
     font-size: 1.6rem;
 }
+#about-page .section-1{
+    padding: 7rem 0;
+}
+.about-page-our-story-section h1{
+    font-size: 5.4rem;
+    font-weight: 600;
+    line-height: 6.4rem;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+.about-page-our-story-section p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  /* Resposive Devies */
 
 @media (max-width:1199px){
