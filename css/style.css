@@ -841,11 +841,18 @@ footer{
 #whislist-page .prodact-list{
     padding-top: 5rem !important;
 }
-
-
-
-
-
+#whislist-page .section-heading h6{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    color: #000000;
+}
+#whislist-page .prodact .card-img{
+    height: 270px;
+}
+.whislist-page-section-2{
+    padding-bottom: 7rem;
+}
 
 
 
