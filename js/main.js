@@ -44,4 +44,3 @@ span[0].onclick = () => {
 
 
 //  Flash Sales Categories JS
-

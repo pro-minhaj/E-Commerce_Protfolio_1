@@ -108,15 +108,15 @@ img{
 .caro-title{
     padding-bottom: 2rem !important;
 }
-.carousel-indicators [data-bs-target]{
+.m-carosel .carousel-indicators [data-bs-target]{
     width: 15px !important;
     height: 15px;
     border-radius: 50%;
     
 }
-.section-1 .carousel-indicators .active{
-    background-color:#DB4444;
-    border: 2px solid #fff;
+.m-carosel .carousel-indicators .active{
+    background-color:#DB4444 !important;
+    
 }
 .caro-title h6{
     font-size: 1.6rem;
@@ -701,15 +701,57 @@ footer{
 .about-sales:hover .gjsahf{
     color: #fff;
 }
-
-
-
-
-
-
-
-
-
+.nav-link{
+    transition: all 0.5s !important;
+}
+#about-page .section-3{
+    padding-top: 5rem;
+    padding-bottom: 15rem !important;
+}
+.about-page-card{
+    border: none !important;
+}
+.about-page-card img{
+    background: #F5F5F5;
+    padding: 3rem 3rem 0 3rem;
+    height: 35rem;
+}
+.card-width{
+   width: 30% !important;
+    
+}
+.about-page-card .card-body{
+    padding-left: 0 !important;
+}
+.about-page-card h3{
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+.about-page-card p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: #000000;
+}
+.about-page-card .card-icons i{
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    color: #000000;
+}
+.about-page-carosel .carousel-indicators [data-bs-target]{
+    background-color: #000000 !important;
+    
+}
+.about-page-carosel  .carousel-indicators .active{
+    background-color: #DB4444 !important;
+}
+.about-page-carosel .carousel-indicators{
+    bottom: -70px !important;
+    gap: 1rem !important;
+}
 
 
 
@@ -791,10 +833,13 @@ footer{
 
 
 @media (max-width:575px){
-    .carousel{
+    .dfjfbhsdjf{
         display: none;
     }
     .about-sales{
         width: 100% !important;
+    }
+    #about-page .section-3{
+        display: none;
     }
 }
