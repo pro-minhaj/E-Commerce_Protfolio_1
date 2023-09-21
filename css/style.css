@@ -818,6 +818,37 @@ footer{
     line-height: 2.4rem;
     color: #DB4444;
 }
+.whislist-page-section-1{
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+}
+.whislist-sct-1-heading h6{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    color: #000000;
+}
+.whislist-sct-1-heading button{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: #000000;
+    padding: 1rem 3rem;
+}
+#whislist-page .add-to-cart{
+    opacity: 1;
+}
+#whislist-page .prodact-list{
+    padding-top: 5rem !important;
+}
+
+
+
+
+
+
+
+
 
 
 
