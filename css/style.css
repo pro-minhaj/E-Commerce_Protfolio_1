@@ -399,35 +399,19 @@ img{
 .section-7{
     padding-bottom: 7rem;
 }
-.m-width{
-    width: 49% !important;
-}
 .bg-sub{
     height: 500px !important;
 }
 .new-arrival-bg .bg{
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: bottom;
     background-color: #000000;
     position: relative;
-    padding: 2rem;
     border-radius: 5px;
 }
 .new-arrival-bg .row{
     margin-left: 0 !important;
     flex-shrink: 0 !important;
-}
-
-.new-arrival-sub{
-    padding: 0;
-    gap: 2.5rem;
-}
-.new-arrival-sub .col-md-6{
-    width: 48% !important;
-}
-.gap{
-    gap: 2.5rem;
 }
 .bg-1{
     background-image: url(../img/BG/box-bg.png);
@@ -853,9 +837,62 @@ footer{
 .whislist-page-section-2{
     padding-bottom: 7rem;
 }
-
-
-
+.cart-page-section-1{
+    padding: 6rem 0 10rem 0;
+}
+.cart-prodiut h6{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: #000000;
+    margin: 0;
+}
+#cart-page .cart-quantity input{
+    outline: none;
+    width: 60px;
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: 0.3rem 0 0.3rem 0.3rem;
+    border: 1px solid #807f7f;
+}
+#cart-page .cart-page-button button{
+    border:1px solid  #00000080;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: #000000;
+    padding: 1rem 3.5rem;
+}
+.cart-coupon-area{
+    padding-top: 5rem;
+}
+#cart-page .cart-coupon input{
+    padding: 1rem 5rem 1rem 1rem;
+    color: #000000;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    outline: none;
+}
+#cart-page .cart-button{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: #FAFAFA;
+    padding: 0 3rem;
+}
+.m-cart-total h4{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    color: #000000;
+}
+.m-cart-total p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: #000000;
+}
 
 
 
@@ -925,10 +962,6 @@ footer{
     }
     .hidden{
         display: none;
-    }
-    .m-width{
-        width: 100% !important;
-        padding-top: 3rem !important;
     }
     .footer-items{
         width: 100% !important;

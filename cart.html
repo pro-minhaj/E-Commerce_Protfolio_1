@@ -15,14 +15,233 @@
     <!-- Title -->
     <title>E-Commerce_Protfolio_1</title>
 </head>
-<body>
+<body id="cart-page">
     
+    <!-- Header Section -->
+    <header>
+    <div class="container">
+        <div class="d-flex justify-content-end align-items-center">
+            <div class="header-text d-flex align-items-center">
+                <div class="header-text-h6">
+                    <h6>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! </h6>
+                </div>
+                <div>
+                    <a href="#" class="hidden">ShopNow</a>
+                </div>
+            </div>
+            <div>
+                <select class="m-select-1">
+                    <option selected>English</option>
+                    <option value="1">Italic</option>
+                    <option value="2">Spanish</option>
+                    <option value="3">French</option>
+                </select>
+            </div>
+            </div>
+        </div>
+    </header>
 
 
+    <!-- Nav Section -->
+    <nav class="navbar pt-5 pb-4 nav-border navbar-expand-lg">
+    <div class="container">
+        <a href="#" class="navbar-brand"><img src="./img/Logo.png" alt="Logo"><a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="navbar-nav m-ul-li m-auto nav-hover">
+                <li class="nav-item"><a href="./index.html" class="nav-link ">Home</a></li>
+                <li class="nav-item"><a href="./contact.html" class="nav-link ">Contact</a></li>
+                <li class="nav-item"><a href="./about.html" class="nav-link ">About</a></li>
+                <li class="nav-item"><a href="./singup.html" class="nav-link">Sing Up</a></li>
+            </ul>
+            <div class="nav-last-area d-flex align-items-center gap-4 flex-wrap">
+                <div class="nav-search ">
+                    <input type="text" placeholder="What are you looking for?">
+                    <a href="#"> <img src="./img/search.png" alt=""></a>
+                </div>
+                <div class="nav-lt-ar-icon-1">
+                    <a href="./whislist.html"><img src="./img/love.png" alt=""></a>
+                </div>
+                <div class="nav-lt-ar-icon-1">
+                    <a href="./cart.html"><img src="./img/buy.png" alt=""></a>
+                </div>
+                <div class="">
+                    <a href="./profile.html"><img src="./img/user.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </nav>
+
+    <section class="cart-page-section-1">
+        <div class="container">
+            <div class="contact-page-heading d-flex align-items-center gap-3">
+                <a href="./index.html">Home</a>
+                <img src="./img/Line 13.png" alt="">
+                <a class="active" href="">Cart</a>
+            </div>
+            <div class="row gy-5 cart-form">
+                <div class="col-12 px-5  shadow-sm py-4 cart-prodiut text-center">
+                    <div class="row">
+                    <div class="col-3">
+                        <h6>Product</h6>
+                    </div>
+                    <div class="col-3">
+                        <h6>Price</h6>
+                    </div>
+                    <div class="col-3">
+                        <h6>Quantity</h6>
+                    </div>
+                    <div class="col-3">
+                        <h6>Subtotal</h6>
+                    </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="col-12 px-5  shadow-sm py-4 cart-prodiut text-center">
+                    <div class="row align-items-center">
+                    <div class="col-3 d-flex align-items-center justify-content-center gap-4">
+                        <div class="position-relative">
+                            <a href="#"><img class="position-absolute top-0 start-25" src="./img/Cart-page/icon-cancel.png" alt=""></a>
+                            <img src="./img/Cart-page/Monitor-Cart-Small.png" alt="">
+                        </div>
+                        <h6>LCD Monitor</h6>
+                    </div>
+                    <div class="col-3">
+                        <h6>$650</h6>
+                    </div>
+                    <div class="col-3 cart-quantity">
+                        <input type="number" placeholder="01">
+                    </div>
+                    <div class="col-3">
+                        <h6>$650</h6>
+                    </div>
+                    </div>  
+                </div>
+                <div class="col-12 px-5  shadow-sm py-4 cart-prodiut text-center">
+                    <div class="row align-items-center">
+                    <div class="col-3 d-flex align-items-center justify-content-center gap-4">
+                        <div>
+                            <img src="./img/Cart-page/g92-2-500x500 1.png" alt="">
+                        </div>
+                        <h6>H1 Gamepad</h6>
+                    </div>
+                    <div class="col-3">
+                        <h6>$550</h6>
+                    </div>
+                    <div class="col-3 cart-quantity">
+                        <input type="number" placeholder="02">
+                    </div>
+                    <div class="col-3">
+                        <h6>$1100</h6>
+                    </div>
+                    </div>  
+                </div>
+                <div class="col-12 cart-page-button">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <button class="btn btn-outline-secondary">Return To Shop</button>
+                        <button class="btn btn-outline-secondary">Update Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5  justify-content-between cart-coupon-area">
+                <div class="col-lg-6">
+                    <div class="d-flex gap-3 cart-coupon">
+                        <input type="text" placeholder="Coupon Code">
+                        <button class="btn btn-danger cart-button">Apply Coupon</button>
+                    </div>
+                </div>
+                <div class="col-lg-5 border border-white-50 p-5 m-cart-total">
+                    <h4>Cart Total</h4>
+                    <div class="d-flex align-items-center justify-content-between border-bottom pt-3">
+                        <p>Subtotal:</p>
+                        <p>$1750</p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between border-bottom pt-3">
+                        <p>Shipping:</p>
+                        <p>Free</p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between pt-3">
+                        <p>Total:</p>
+                        <p>$1750</p>
+                    </div>
+                    <div class="text-center pt-3">
+                        <button class="btn btn-danger cart-button py-3">Procees To Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
+      <!-- Footer -->
 
+      <footer>
 
+        <div class="container">
+            <div class="row footer-padding">
+                <div class="col-md-2 footer-items">
+                    <img src="./img/logo-footer.png" alt="">
+                    <h5>Subscribe</h5>
+                    <p>Get 10% off your first order</p>
+                    <div class="fr-1-email-area d-flex align-items-center">
+                        <input type="text" placeholder="Enter your email" class="form-control">
+                        <a href="#"><img src="./img/Vector.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-2 footer-items">
+                    <h5 class="footer-heading-sub">Subscribe</h5>
+                    <p>111 Bijoy sarani, Dhaka,  DH 1515, Bangladesh.</p>
+                    <p>exclusive@gmail.com</p>
+                    <p>+88015-88888-9999</p>
+                </div>
+                <div class="col-md-2 footer-items">
+                    <h5 class="footer-heading-sub">Account</h5>
+                    <ul class="footer-accout-ul">
+                        <li><a href="#">My Account</a></li>
+                        <li>
+                            <a href="./login.html">Login</a>
+                            <span>/</span>
+                            <a href="./singup.html">Register</a>
+                        </li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">Shop</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 footer-items">
+                    <h5 class="footer-heading-sub">Quick Link</h5>
+                    <ul class="footer-accout-ul">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms Of Use</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 footer-items">
+                    <h5 class="footer-heading-sub">Download App</h5>
+                    <p class="footer-download-app-p">Save $3 with App New User Onl</p>
+                    <div class="footer-download d-flex gap-3">
+                        <div class="">
+                            <a href="#"><img src="./img/Qrcode 1.png" alt=""></a>
+                        </div>
+                        <div class="d-flex flex-column gap-4">
+                                <a href="#"><img src="./img/google-play.png" alt=""></a>
+                                <a  href="#"><img src="./img/app-store.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="d-flex footer-icons  ">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright text-center">© Copyright Programmer-Minhaj 2022. All right reserved</p>
+        </div>
+    </footer>
 
 
 

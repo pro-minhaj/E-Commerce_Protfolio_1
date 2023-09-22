@@ -44,3 +44,12 @@ span[0].onclick = () => {
 
 
 //  Flash Sales Categories JS
+
+
+
+
+function signUpButton(){
+	let signUp = document.getElementById('signup');
+	signUp.innerHTML = 'Account Create Success!';
+	return
+}
