@@ -768,6 +768,9 @@ footer{
     color: #000000;
     
 }
+.nav-lt-ar-icon-1{
+    cursor: pointer;
+}
 .singup-form form input::placeholder{
     opacity: 0.4;
 }
@@ -893,8 +896,74 @@ footer{
     line-height: 2.4rem;
     color: #000000;
 }
-
-
+.nav-lt-ar-icon-1 a{
+    padding: 1rem 0.3rem;
+}
+.profile-page-section-1{
+    padding-top: 8rem;
+    padding-bottom:10rem ;
+}
+#profile-page .profile-name p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+    color: #000000;
+    margin-bottom: 0;
+}
+#profile-page .profile-name p span{
+    color:#DB4444 ;
+}
+#profile-page .Manage-account h4{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: #000000;
+}
+#profile-page .Manage-account ul li{
+    list-style: none;
+    padding: 0.5rem 0;
+}
+#profile-page .Manage-account ul li a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: #000000;
+    opacity: 0.5;
+}
+#profile-page .Manage-account .active{
+    color:#DB4444 !important ;
+    opacity: 1;
+}
+#profile-page .edit-your-profile{
+    padding: 4rem 7rem;
+}
+#profile-page .edit-your-profile h3{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    color: #DB4444;
+    margin-bottom: 2rem;
+}
+#profile-page .edit-your-profile label{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: #000000;
+}
+#profile-page .edit-your-profile input{
+    border: none;
+    background-color:#F5F5F5 ;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    color: #000000;
+}
+#profile-page .edit-your-profile input::placeholder{
+    opacity:0.5 ;
+}
 
 
  /* Resposive Devies */
