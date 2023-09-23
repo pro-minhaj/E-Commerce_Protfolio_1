@@ -967,6 +967,11 @@ footer{
 #profile-page .cancel{
     font-size: 1.6rem;
 }
+.padding-lr{
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+
 
  /* Resposive Devies */
 
