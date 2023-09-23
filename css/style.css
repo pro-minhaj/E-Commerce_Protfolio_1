@@ -877,7 +877,7 @@ footer{
     line-height: 2.4rem;
     outline: none;
 }
-#cart-page .cart-button{
+.cart-button{
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 2.4rem;
@@ -964,7 +964,9 @@ footer{
 #profile-page .edit-your-profile input::placeholder{
     opacity:0.5 ;
 }
-
+#profile-page .cancel{
+    font-size: 1.6rem;
+}
 
  /* Resposive Devies */
 
