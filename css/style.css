@@ -688,10 +688,7 @@ footer{
     background: #F5F5F5;
     padding: 3rem 3rem 0 3rem;
     height: 35rem;
-}
-.card-width{
-   width: 30% !important;
-    
+    max-height: 100%;
 }
 .about-page-card .card-body{
     padding-left: 0 !important;
